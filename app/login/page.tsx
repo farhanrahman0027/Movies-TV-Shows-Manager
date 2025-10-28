@@ -85,7 +85,7 @@ export default function LoginPage() {
               <div className="p-3 bg-red-500/10 border border-red-500/20 rounded text-red-600 text-sm">{error}</div>
             )}
 
-            <Button type="submit" disabled={isLoading} className="w-full bg-primary hover:bg-primary-hover text-white">
+            <Button type="submit" disabled={isLoading} className="w-full bg-primary hover:bg-primary-hover text-black">
               {isLoading ? "Signing in..." : "Sign In"}
             </Button>
           </form>
